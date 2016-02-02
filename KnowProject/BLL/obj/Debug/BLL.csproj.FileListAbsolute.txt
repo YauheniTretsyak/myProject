@@ -1,0 +1,9 @@
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\BLL\bin\Debug\BLL.dll
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\BLL\bin\Debug\BLL.pdb
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\BLL\bin\Debug\BLL.Interface.dll
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\BLL\bin\Debug\Repository.dll
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\BLL\bin\Debug\BLL.Interface.pdb
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\BLL\bin\Debug\Repository.pdb
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\BLL\obj\Debug\BLL.dll
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\BLL\obj\Debug\BLL.pdb

@@ -1,0 +1,77 @@
+﻿
+@model PagedList.IPagedList<MvcPL.Models.UserViewModel>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" />
+
+
+@{
+    ViewBag.Title = "Admin";
+}
+
+<h2>Admin</h2>
+
+<p>
+    <ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("Create New User", "Register")</li>
+        <li>@Html.ActionLink("Role", "Index", "Role")</li>
+        <li>@Html.ActionLink("Knowledges", "Index", "Knowledge")</li>
+
+    </ul>
+</p>
+<p>
+    @Html.Action("Find", "UsersKnowledge", null)
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Id")
+</th>
+        <th>
+            @Html.DisplayName("Photo")
+        </th>
+        <th>
+            @Html.DisplayName("Name")
+        </th>
+        <th>
+            @Html.DisplayName("Email")
+        </th>
+        <th></th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserId)
+            </td>
+            <td>
+                @if (item.Photo != null)
+                {
+                    @Html.Raw("<img style='width:80px; height:100px;' src=\"data:image/jpeg;base64,"
+                                + Convert.ToBase64String(item.Photo) + "\" />")
+                }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { Id = item.UserId }) |
+                @Html.ActionLink("Details", "Details", new { Id = item.UserId }) |
+                @Html.ActionLink("Delete", "Delete", new { Id = item.UserId })
+
+            </td>
+            <td>
+                @Html.Action("CertainKnowledgeOfUser", "UsersKnowledge", new { id = item.UserId })
+            </td>
+        </tr>
+    }
+
+</table>
+Страница @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) из @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("DetailsForAdmin", new { page }))

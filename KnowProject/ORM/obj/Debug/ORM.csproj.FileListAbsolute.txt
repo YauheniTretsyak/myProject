@@ -1,0 +1,11 @@
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\ORM\bin\Debug\ORM.dll
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\ORM\bin\Debug\ORM.pdb
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\ORM\obj\Debug\ORM.dll
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\ORM\obj\Debug\ORM.pdb
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\ORM\bin\Debug\ORM.dll.config
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\ORM\bin\Debug\EntityFramework.dll
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\ORM\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\ORM\bin\Debug\EntityFramework.xml
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\ORM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Villovik\documents\visual studio 2013\Projects\KnowProject\ORM\obj\Debug\ORM.Migrations._7.resources
+C:\Users\Villovik\documents\visual studio 2013\Projects\KnowProject\ORM\obj\Debug\ORM.csproj.GenerateResource.Cache

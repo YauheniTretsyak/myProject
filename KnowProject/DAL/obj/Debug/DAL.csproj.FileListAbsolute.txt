@@ -1,0 +1,14 @@
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\DAL\bin\Debug\DAL.dll.config
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\DAL\bin\Debug\DAL.dll
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\DAL\bin\Debug\DAL.pdb
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\DAL\bin\Debug\EntityFramework.dll
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\DAL\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\DAL\bin\Debug\ORM.dll
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\DAL\bin\Debug\Repository.dll
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\DAL\bin\Debug\ORM.pdb
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\DAL\bin\Debug\Repository.pdb
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\DAL\bin\Debug\EntityFramework.xml
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\DAL\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\DAL\obj\Debug\DAL.dll
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\DAL\obj\Debug\DAL.pdb

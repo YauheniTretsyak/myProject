@@ -1,0 +1,4 @@
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\Repository\bin\Debug\Repository.dll
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\Repository\bin\Debug\Repository.pdb
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\Repository\obj\Debug\Repository.dll
+c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\Repository\obj\Debug\Repository.pdb
