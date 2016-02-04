@@ -5,10 +5,10 @@
 
 
 @{
+    
     ViewBag.Title = "Admin";
 }
 
-<h2>Admin</h2>
 
 <p>
     <ul class="nav navbar-nav navbar-right">
@@ -18,10 +18,18 @@
 
     </ul>
 </p>
-<p>
-    @Html.Action("Find", "UsersKnowledge", null)
-</p>
+ 
+<img id="loading" src="~/Content/477.GIF" style="display:none;position: fixed; top: 45%; right: 50%;" />
+<div id="jsEnabled" style="visibility: hidden">
+    <p id="results">
+        @Ajax.ActionLink("Find", "Find", "UsersKnowledge", new AjaxOptions { HttpMethod = "GET", UpdateTargetId = "results" })
+    </p>
+</div>
+<div id="jsDisabled">  
+    Please, enable JS!
+</div>
 
+<div id="1212">
 <table class="table">
     <tr>
         <th>
@@ -72,6 +80,40 @@
     }
 
 </table>
-Страница @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) из @Model.PageCount
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) from @Model.PageCount
 
-@Html.PagedListPager(Model, page => Url.Action("DetailsForAdmin", new { page }))
+@Html.PagedListPager(Model, page => Url.Action("DetailsForAdmin", new { page }),
+
+  PagedListRenderOptions.EnableUnobtrusiveAjaxReplacing(new PagedListRenderOptions
+  {
+      LinkToFirstPageFormat = "<<",
+      LinkToPreviousPageFormat = "Back",
+      LinkToNextPageFormat = "Forward",
+      LinkToLastPageFormat = ">>"
+  }
+
+              , new AjaxOptions()
+              {
+                  HttpMethod = "GET",
+                  UpdateTargetId = "1212",
+                  LoadingElementId = "loading"
+              }))
+
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+<script language="javascript" type="text/javascript">
+    function checkJavaScriptValidity() {
+        document.getElementById("jsEnabled").style.visibility = 'visible';
+        document.getElementById("jsDisabled").style.visibility = 'hidden';
+    }
+</script>
+
+<body onload="checkJavaScriptValidity()">
+</body>
+
+
+}

@@ -11,6 +11,7 @@ namespace MvcPL.Models
         public int UsersKnowledgeId { get; set; }
 
         [Required(ErrorMessage = "The field can not be empty!")]
+        [Range(1, 5, ErrorMessage = "Must be from 1 to 5")]
         public int Degree { get; set; }
 
         public string Description { get; set; }

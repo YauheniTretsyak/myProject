@@ -3,3 +3,8 @@ c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\BLL.Interfac
 c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\BLL.Interface\obj\Debug\BLL.Interface.dll
 c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\BLL.Interface\obj\Debug\BLL.Interface.pdb
 C:\Users\Villovik\documents\visual studio 2013\Projects\KnowProject\BLL.Interface\obj\Debug\BLL.Interface.csprojResolveAssemblyReference.cache
+G:\myProject\KnowProject\BLL.Interface\bin\Debug\BLL.Interface.dll
+G:\myProject\KnowProject\BLL.Interface\bin\Debug\BLL.Interface.pdb
+G:\myProject\KnowProject\BLL.Interface\obj\Debug\BLL.Interface.dll
+G:\myProject\KnowProject\BLL.Interface\obj\Debug\BLL.Interface.pdb
+G:\myProject\KnowProject\BLL.Interface\obj\Debug\BLL.Interface.csprojResolveAssemblyReference.cache

@@ -1,16 +1,17 @@
-﻿using BLL.Interface.Entities;
-using BLL.Interface.Services;
-using MvcPL.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System;
 using System.Web.Mvc;
-using System.Web.Security;
+using BLL.Interface.Services;
+using MvcPL.Filters;
+using MvcPL.Models;
 using MvcPL.Infrastructura;
+using System.Linq;
+
+
 
 namespace MvcPL.Controllers
 {
+    [Authorize]
+    [MyAuthorize(Roles = "Admin")]
     public class KnowledgeController : Controller
     {
 
@@ -29,10 +30,11 @@ namespace MvcPL.Controllers
         }
 
         // GET: Knowledge/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details(int id=0)
         {
-
-            return View(service.GetById(id));
+            if (id != 0) { return View(service.GetById(id)); }
+            else{return View();}
+            
         }
 
         // GET: Knowledge/Create
@@ -46,22 +48,29 @@ namespace MvcPL.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(KnowledgeViewModel knowledge)
         {
-
+            if (ModelState.IsValid)
+            {
             service.Create(knowledge.ToDTOKnowl());
             return RedirectToAction("Index");
+            }
+            return View(knowledge);
         }
 
          //GET: Knowledge/Delete/5
-        public ActionResult Delete(int id)
+        public ActionResult Delete(int id=0)
         {
+            if (id != 0)
+            {
             var x = service.GetAll().Where(e => e.KnowledgeId == id).Select(knowl =>knowl.ToWebKnowl()).FirstOrDefault();
             return View(x);
+            }
+            else { return RedirectToAction("Index","Home"); }
         }
 
         // POST: Knowledge/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, FormCollection collection)
+        public ActionResult Delete(FormCollection collection, int id = 0)
         {
             
             try
@@ -71,7 +80,7 @@ namespace MvcPL.Controllers
             }
               catch
             {
-                  return RedirectToAction("Index", "Home", null);
+                  return RedirectToAction("Index", "Home");
             }  
             
    

@@ -1,16 +1,17 @@
-﻿using BLL.Interface.Entities;
-using BLL.Interface.Services;
-using MvcPL.Models;
+﻿using BLL.Interface.Services;
+using MvcPL.Filters;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
-using System.Web.Security;
+using System.Linq;
 using MvcPL.Infrastructura;
+using MvcPL.Models;
+using System.Web.Security;
+
 
 namespace MvcPL.Controllers
 {
+   [Authorize]
+   [MyAuthorize(Roles = "Admin")]
     public class RoleController : Controller
     {
         private readonly IRoleService service;
@@ -22,12 +23,14 @@ namespace MvcPL.Controllers
 
 
         // GET: Role
+        
         public ActionResult Index()
         {
             return View(service.GetAll().Select(role =>role.ToWebRole())); 
         }
 
         // GET: Role/Details/5
+       
         public ActionResult Details(int id)
         {
 
@@ -45,8 +48,15 @@ namespace MvcPL.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(RoleViewModel rol)
         {
+            if (ModelState.IsValid)
+            {
             service.Create(rol.ToDTORole());
             return RedirectToAction("Index");
+            }
+            else
+            {
+                return View("Create", rol);
+            }
         }
 
         //// GET: Role/Edit/5
@@ -60,15 +70,22 @@ namespace MvcPL.Controllers
         [HttpPost]
         public ActionResult Edit(RoleViewModel collection)
         {
-            try
+            if (ModelState.IsValid)
             {
-                service.Update(collection.ToDTORole());
-
-                return RedirectToAction("Index");
+                    try
+                    {
+                        service.Update(collection.ToDTORole());
+                   
+                        return RedirectToAction("Index");
+                    }
+                    catch
+                    {
+                        return View();
+                    }
             }
-            catch
+            else
             {
-                return View();
+                return View("Edit", collection);
             }
         }
 
@@ -82,7 +99,7 @@ namespace MvcPL.Controllers
         //// POST: Role/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, FormCollection collection)
+        public ActionResult Delete( FormCollection collection, int id = 0)
         {
             try{
                 service.Delete(id);

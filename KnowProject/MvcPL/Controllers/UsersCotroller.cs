@@ -1,23 +1,25 @@
-﻿using BLL.Interface.Entities;
-using BLL.Interface.Services;
-using BLL.Providers;
-using MvcPL.Models;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Web;
-using System.Web.Helpers;
+﻿using System;
 using System.Web.Mvc;
+using System.Linq;
+using BLL.Interface.Services;
+using MvcPL.Filters;
+using MvcPL.Infrastructura;
+using MvcPL.Models;
+using BLL.Interface.Entities;
+using System.Web.Helpers;
 using System.Web.Security;
+using System.Web;
+using System.IO;
+using BLL.Providers;
 using PagedList.Mvc;
 using PagedList;
+using System.Collections.Generic;
 using Word = Microsoft.Office.Interop.Word;
 using System.Reflection;
-using MvcPL.Infrastructura;
 
 namespace MvcPL.Controllers
 {
+    [Authorize]
     public class UsersController : Controller
     {
 
@@ -33,6 +35,7 @@ namespace MvcPL.Controllers
         }
 
         [HttpPost]
+        [MyAuthorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
         public ActionResult Find(FormCollection form, int? page)
         {
@@ -57,6 +60,7 @@ namespace MvcPL.Controllers
                 var q = from t in userKnowledgers
                         join tID in usersTemp on t.UserId equals tID.UserId
                         select new UserViewModel { Email = tID.Email, Name = tID.Name, Photo = tID.Photo, UserId = tID.UserId };
+
                 return View("Admin", q.ToPagedList(pageNumber, pageSize));
             }
             else
@@ -133,7 +137,8 @@ namespace MvcPL.Controllers
 
             return View(user.ToWebUser()); 
         }
-
+       
+        [MyAuthorize(Roles = "Admin")]
         public ActionResult DetailsForAdmin(int? page)
         {
             int pageSize = 3;
@@ -141,9 +146,16 @@ namespace MvcPL.Controllers
 
 
             var users = service.GetAll().Select(x => x.ToWebUser());
-            return View("Admin", users.ToPagedList(pageNumber, pageSize));
-        }
 
+
+          if(Request.IsAjaxRequest())       
+            {
+                return PartialView("AdminPartial", users.ToPagedList(pageNumber, pageSize));
+            }
+
+          return View("Admin", users.ToPagedList(pageNumber, pageSize));
+        }
+        
         public ActionResult Edit(int id)
         {
             var x = service.GetAll().Where(e => e.UserId == id).Select(user =>user.ToWebUser()).FirstOrDefault();
@@ -154,29 +166,36 @@ namespace MvcPL.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit(UserViewModel model)
         {
-            var blluser = new UserDTO()
+            if (ModelState.IsValid)
             {
-                UserId = model.UserId,
-                Name = model.Name,
-                RoleId = model.RoleId,
-                Password = Crypto.HashPassword(model.Password),
-                Email = model.Email,
-                Photo=model.Photo
-            };
-            service.Update(blluser);
-            if (Roles.Provider.IsUserInRole(Membership.GetUser().UserName, "Admin"))
-            {
-
-                return RedirectToAction("DetailsForAdmin", "Users", new { id = Membership.GetUser().ProviderUserKey });
+                 var blluser = new UserDTO()
+                 {
+                     UserId = model.UserId,
+                     Name = model.Name,
+                     RoleId = model.RoleId,
+                     Password = Crypto.HashPassword(model.Password),
+                     Email = model.Email,
+                     Photo=model.Photo
+                 };
+                 service.Update(blluser);
+                 if (Roles.Provider.IsUserInRole(Membership.GetUser().UserName, "Admin"))
+                 {
+                
+                     return RedirectToAction("DetailsForAdmin", "Users", new { id = Membership.GetUser().ProviderUserKey });
+                 }
+                 else
+                 {
+                     FormsAuthentication.SignOut();
+                     return RedirectToAction("Index", "Home", null);
+                 }
             }
             else
             {
-                FormsAuthentication.SignOut();
-                return RedirectToAction("Index", "Home", null);
+                return View("Edit", model);
             }
 
         }
-
+        [AllowAnonymous]
         public ActionResult Login()
         {
 
@@ -186,6 +205,7 @@ namespace MvcPL.Controllers
 
 
         [HttpPost]
+        [AllowAnonymous]
         [ValidateAntiForgeryToken]
         public ActionResult Login(LoginViewModel model, string returnUrl)
         {
@@ -216,13 +236,14 @@ namespace MvcPL.Controllers
 
             return RedirectToAction("Login", "Users");
         }
-
+        [AllowAnonymous]
         public ActionResult Register()
         {
             return View();
         }
 
         [HttpPost]
+        [AllowAnonymous]
         [ValidateAntiForgeryToken]
         public ActionResult Register(UserViewModel model, HttpPostedFileBase uploadImage)
         {
@@ -252,12 +273,14 @@ namespace MvcPL.Controllers
         }
         
         [HttpGet]
+        [MyAuthorize(Roles = "Admin")]
         public ActionResult Delete(int id=0) {
             var x = service.GetAll().Where(e => e.UserId == id).Select(user =>user.ToWebUser()).FirstOrDefault();
             return View(x);
         }
         
         [HttpPost]
+        [MyAuthorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, FormCollection collection)
         {

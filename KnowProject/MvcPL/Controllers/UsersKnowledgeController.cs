@@ -1,16 +1,16 @@
-﻿using BLL.Interface.Entities;
-using BLL.Interface.Services;
-using MvcPL.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System;
 using System.Web.Mvc;
-using System.Web.Security;
+using System.Linq;
+using BLL.Interface.Services;
+using MvcPL.Filters;
+using System.Collections.Generic;
 using MvcPL.Infrastructura;
+using MvcPL.Models;
+using System.Web.Security;
 
 namespace MvcPL.Controllers
 {
+   [Authorize]
     public class UsersKnowledgeController : Controller
     {
         private readonly IUserKnowledgeService service;
@@ -24,6 +24,7 @@ namespace MvcPL.Controllers
             this.serviceForUser = serviceForUser;
         }
         // GET: UsersKnowledge
+       [MyAuthorize(Roles = "Admin")]
         public ActionResult Index()
         {
             List<SelectListItem> knowl = new List<SelectListItem>();
@@ -50,6 +51,8 @@ namespace MvcPL.Controllers
 
             return View(service.GetAll().Select(user =>user.ToWebUserKnowl()));
         }
+
+        [MyAuthorize(Roles = "Admin")]
         public ActionResult Find()
         {
             List<SelectListItem> knowl = new List<SelectListItem>();
@@ -66,6 +69,10 @@ namespace MvcPL.Controllers
             items.Add(new SelectListItem { Text = "4", Value = "4" });
             items.Add(new SelectListItem { Text = "5", Value = "5" });
             ViewBag.Numbers = items;
+            if (Request.IsAjaxRequest())
+            {
+                return PartialView("AdminAjax");
+            }
             return PartialView();
         }
 
@@ -75,7 +82,7 @@ namespace MvcPL.Controllers
             var edfl = service.GetById(id);
             return View(service.GetById(id));
         }
-
+       
         public ActionResult CertainKnowledgeOfUser(int id)
         {
             Dictionary<int, string> knowl = new Dictionary<int, string>();
@@ -91,6 +98,7 @@ namespace MvcPL.Controllers
             return PartialView(edfl);
         }
         // GET: UsersKnowledge/Create
+        
         public ActionResult Create(int Id)
         {
             SelectList knowl = new SelectList(serviceForKnowl.GetAll(), "KnowledgeId", "Name");
@@ -100,20 +108,27 @@ namespace MvcPL.Controllers
         }
 
         // POST: UsersKnowledge/Create
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(UsersKnowledgeViewModel mod)
         {
-
-            service.Create(mod.ToDALUserKnowl());
-            if (Roles.Provider.IsUserInRole(Membership.GetUser().UserName, "Admin"))
+            if (ModelState.IsValid)
             {
+                service.Create(mod.ToDALUserKnowl());
+                if (Roles.Provider.IsUserInRole(Membership.GetUser().UserName, "Admin"))
+                {
 
-                return RedirectToAction("DetailsForAdmin", "Users");
+                    return RedirectToAction("DetailsForAdmin", "Users");
+                }
+                else
+                {
+                    return RedirectToAction("Details", "Users", new { id = Membership.GetUser().ProviderUserKey });
+                }
             }
             else
             {
-                return RedirectToAction("Details", "Users", new { id = Membership.GetUser().ProviderUserKey });
+                return View("Create", mod);
             }
         }
 
@@ -135,20 +150,27 @@ namespace MvcPL.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit(UsersKnowledgeViewModel collection)
         {
-            try
+            if (ModelState.IsValid)
             {
-                service.Update(collection.ToDALUserKnowl());
-                if (Roles.Provider.IsUserInRole(Membership.GetUser().UserName, "Admin"))
+                try
                 {
+                    service.Update(collection.ToDALUserKnowl());
+                    if (Roles.Provider.IsUserInRole(Membership.GetUser().UserName, "Admin"))
+                    {
 
-                    return RedirectToAction("DetailsForAdmin", "Users");
+                        return RedirectToAction("DetailsForAdmin", "Users");
+                    }
+                    else
+                    {
+                        return RedirectToAction("Details", "Users", new { id = Membership.GetUser().ProviderUserKey });
+                    }
                 }
-                else
+                catch
                 {
-                    return RedirectToAction("Details", "Users", new { id = Membership.GetUser().ProviderUserKey });
+                    return View("Edit", collection);
                 }
             }
-            catch
+            else
             {
                 return View();
             }
@@ -164,7 +186,7 @@ namespace MvcPL.Controllers
         // POST: UsersKnowledge/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, FormCollection collection)
+        public ActionResult Delete( FormCollection collection,int id=0)
         {
             try
             {

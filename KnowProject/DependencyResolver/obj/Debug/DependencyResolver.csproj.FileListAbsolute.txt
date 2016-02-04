@@ -22,3 +22,27 @@ c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\DependencyRe
 c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\DependencyResolver\obj\Debug\DependencyResolver.pdb
 c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\DependencyResolver\bin\Debug\Ninject.Web.Common.dll
 c:\users\villovik\documents\visual studio 2013\Projects\KnowProject\DependencyResolver\bin\Debug\Ninject.Web.Common.xml
+G:\myProject\KnowProject\DependencyResolver\bin\Debug\DependencyResolver.dll.config
+G:\myProject\KnowProject\DependencyResolver\bin\Debug\DependencyResolver.dll
+G:\myProject\KnowProject\DependencyResolver\bin\Debug\DependencyResolver.pdb
+G:\myProject\KnowProject\DependencyResolver\bin\Debug\BLL.dll
+G:\myProject\KnowProject\DependencyResolver\bin\Debug\BLL.Interface.dll
+G:\myProject\KnowProject\DependencyResolver\bin\Debug\DAL.dll
+G:\myProject\KnowProject\DependencyResolver\bin\Debug\EntityFramework.dll
+G:\myProject\KnowProject\DependencyResolver\bin\Debug\EntityFramework.SqlServer.dll
+G:\myProject\KnowProject\DependencyResolver\bin\Debug\Ninject.dll
+G:\myProject\KnowProject\DependencyResolver\bin\Debug\Ninject.Web.Common.dll
+G:\myProject\KnowProject\DependencyResolver\bin\Debug\ORM.dll
+G:\myProject\KnowProject\DependencyResolver\bin\Debug\Repository.dll
+G:\myProject\KnowProject\DependencyResolver\bin\Debug\BLL.Interface.pdb
+G:\myProject\KnowProject\DependencyResolver\bin\Debug\BLL.pdb
+G:\myProject\KnowProject\DependencyResolver\bin\Debug\DAL.pdb
+G:\myProject\KnowProject\DependencyResolver\bin\Debug\ORM.pdb
+G:\myProject\KnowProject\DependencyResolver\bin\Debug\Repository.pdb
+G:\myProject\KnowProject\DependencyResolver\bin\Debug\EntityFramework.xml
+G:\myProject\KnowProject\DependencyResolver\bin\Debug\EntityFramework.SqlServer.xml
+G:\myProject\KnowProject\DependencyResolver\bin\Debug\Ninject.xml
+G:\myProject\KnowProject\DependencyResolver\bin\Debug\Ninject.Web.Common.xml
+G:\myProject\KnowProject\DependencyResolver\obj\Debug\DependencyResolver.csprojResolveAssemblyReference.cache
+G:\myProject\KnowProject\DependencyResolver\obj\Debug\DependencyResolver.dll
+G:\myProject\KnowProject\DependencyResolver\obj\Debug\DependencyResolver.pdb
