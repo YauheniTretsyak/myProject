@@ -1,0 +1,39 @@
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Bll\obj\Debug\KnowledgeAccounting.Bll.csprojResolveAssemblyReference.cache
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Bll\bin\Debug\KnowledgeAccounting.Bll.dll
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Bll\bin\Debug\KnowledgeAccounting.Bll.pdb
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Bll\bin\Debug\AutoMapper.dll
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Bll\bin\Debug\KnowledgeAccounting.Dal.dll
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Bll\bin\Debug\EntityFramework.dll
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Bll\bin\Debug\KnowledgeAccounting.Dal.pdb
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Bll\bin\Debug\AutoMapper.xml
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Bll\bin\Debug\EntityFramework.xml
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Bll\obj\Debug\KnowledgeAccounting.Bll.dll
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Bll\obj\Debug\KnowledgeAccounting.Bll.pdb
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Bll\bin\Debug\Ninject.dll
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Bll\bin\Debug\Ninject.xml
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Bll\bin\Debug\KnowledgeAccounting.Bll.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Bll\bin\Debug\KnowledgeAccounting.Bll.pdb
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Bll\bin\Debug\AutoMapper.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Bll\bin\Debug\KnowledgeAccounting.Dal.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Bll\bin\Debug\Ninject.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Bll\bin\Debug\EntityFramework.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Bll\bin\Debug\KnowledgeAccounting.Dal.pdb
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Bll\bin\Debug\AutoMapper.xml
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Bll\bin\Debug\Ninject.xml
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Bll\bin\Debug\EntityFramework.xml
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Bll\obj\Debug\KnowledgeAccounting.Bll.csprojResolveAssemblyReference.cache
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Bll\obj\Debug\KnowledgeAccounting.Bll.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Bll\obj\Debug\KnowledgeAccounting.Bll.pdb
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\bin\Debug\KnowledgeAccounting.Bll.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\bin\Debug\KnowledgeAccounting.Bll.pdb
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\bin\Debug\AutoMapper.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\bin\Debug\KnowledgeAccounting.Dal.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\bin\Debug\Ninject.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\bin\Debug\EntityFramework.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\bin\Debug\KnowledgeAccounting.Dal.pdb
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\bin\Debug\AutoMapper.xml
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\bin\Debug\Ninject.xml
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\bin\Debug\EntityFramework.xml
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\obj\Debug\KnowledgeAccounting.Bll.csprojResolveAssemblyReference.cache
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\obj\Debug\KnowledgeAccounting.Bll.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\obj\Debug\KnowledgeAccounting.Bll.pdb

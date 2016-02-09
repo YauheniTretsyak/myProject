@@ -1,0 +1,19 @@
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Dal\bin\Release\KnowledgeAccounting.Dal.dll.config
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Dal\bin\Release\KnowledgeAccounting.Dal.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Dal\bin\Release\KnowledgeAccounting.Dal.pdb
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Dal\bin\Release\EntityFramework.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Dal\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Dal\bin\Release\EntityFramework.xml
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Dal\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Dal\obj\Release\KnowledgeAccounting.Dal.csprojResolveAssemblyReference.cache
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Dal\obj\Release\KnowledgeAccounting.Dal.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Dal\obj\Release\KnowledgeAccounting.Dal.pdb
+C:\Users\Villovik\Desktop\Новая папка (3)\111\KnowledgeAccounting.Dal\bin\Release\KnowledgeAccounting.Dal.dll.config
+C:\Users\Villovik\Desktop\Новая папка (3)\111\KnowledgeAccounting.Dal\bin\Release\KnowledgeAccounting.Dal.dll
+C:\Users\Villovik\Desktop\Новая папка (3)\111\KnowledgeAccounting.Dal\bin\Release\KnowledgeAccounting.Dal.pdb
+C:\Users\Villovik\Desktop\Новая папка (3)\111\KnowledgeAccounting.Dal\bin\Release\EntityFramework.dll
+C:\Users\Villovik\Desktop\Новая папка (3)\111\KnowledgeAccounting.Dal\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Villovik\Desktop\Новая папка (3)\111\KnowledgeAccounting.Dal\bin\Release\EntityFramework.xml
+C:\Users\Villovik\Desktop\Новая папка (3)\111\KnowledgeAccounting.Dal\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Villovik\Desktop\Новая папка (3)\111\KnowledgeAccounting.Dal\obj\Release\KnowledgeAccounting.Dal.dll
+C:\Users\Villovik\Desktop\Новая папка (3)\111\KnowledgeAccounting.Dal\obj\Release\KnowledgeAccounting.Dal.pdb

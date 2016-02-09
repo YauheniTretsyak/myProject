@@ -1,0 +1,147 @@
+﻿@model KnowledgeAccounting.Web.Models.UserViewModel
+<ul class="nav navbar-nav navbar-right">
+    @if (!User.Identity.IsAuthenticated)
+    {
+        <li>
+            <a href="#" id="trigger">Login</a>
+            <div id="box" class="form-inline" style="display: none;">
+                @using (Html.BeginForm("Login", "Users"))
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-horizontal">
+
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2", style = "color:aliceblue" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2", style = "color:aliceblue" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.RememberMe, htmlAttributes: new { @class = "control-label col-md-2", style = "color:aliceblue" })
+                            <div class="col-md-10">
+                                <div class="checkbox">
+                                    @Html.EditorFor(model => model.RememberMe)
+                                    @Html.ValidationMessageFor(model => model.RememberMe, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="LogIn" class="btn btn-default" />
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </li>
+
+        <li>
+            <a href="#" id="trigger2">Регистрация</a>
+            <div id="box2" class="form-horizontal" style="display: none; ">
+                @using (Html.BeginForm("Register", "Users", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-horizontal">
+
+
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2", style = "color:aliceblue" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2", style = "color:aliceblue" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.ConfirmPassword, htmlAttributes: new { @class = "control-label col-md-2", style = "color:aliceblue" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.ConfirmPassword, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2", style = "color:aliceblue" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.RememberMe, htmlAttributes: new { @class = "control-label col-md-2", style = "color:aliceblue" })
+                            <div class="col-md-10">
+                                <div class="checkbox">
+                                    @Html.EditorFor(model => model.RememberMe)
+                                    @Html.ValidationMessageFor(model => model.RememberMe, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="file" name="uploadImage" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="Create" class="btn btn-default" />
+                            </div>
+                        </div>
+                    </div>
+                }
+
+
+            </div>
+        </li>
+
+    }
+    else
+    {
+
+        <li>
+            <a>Hello @Membership.GetUser().UserName!(@Roles.Provider.IsUserInRole(Membership.GetUser().UserName, "Admin"))</a>
+        </li>
+        if (Roles.Provider.IsUserInRole(Membership.GetUser().UserName, "Admin"))
+        {
+            <li>@Html.ActionLink("Personal Area!", "DetailsForAdmin", "Users", new { id = Membership.GetUser().ProviderUserKey }, null)</li>
+        }
+        else
+        {
+            <li>@Html.ActionLink("Personal Area", "Details", "Users", new { id = Membership.GetUser().ProviderUserKey }, null)</li>
+        }
+
+        <li>@Html.ActionLink("LogOff", "LogOff", "Users")</li>
+    }
+
+</ul>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+}

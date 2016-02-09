@@ -1,0 +1,66 @@
+﻿@model KnowledgeAccounting.Web.Models.UsersKnowledgeViewModel
+
+@using KnowledgeAccounting.Web.Models
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.UsersKnowledgeId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UsersKnowledgeId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Degree)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Degree)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KnowledgeId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KnowledgeId)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.Hidden("id", Model.UsersKnowledgeId)
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" />
+            @Html.ActionLink("Return", "Details", "Users", new { id = Membership.GetUser().ProviderUserKey }, new { @class = "btn btn-default" })
+        </div>
+    }
+</div>

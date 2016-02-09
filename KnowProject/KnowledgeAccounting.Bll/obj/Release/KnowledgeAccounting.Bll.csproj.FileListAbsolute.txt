@@ -1,0 +1,26 @@
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\bin\Release\KnowledgeAccounting.Bll.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\bin\Release\KnowledgeAccounting.Bll.pdb
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\bin\Release\AutoMapper.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\bin\Release\KnowledgeAccounting.Dal.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\bin\Release\Ninject.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\bin\Release\EntityFramework.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\bin\Release\KnowledgeAccounting.Dal.pdb
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\bin\Release\AutoMapper.xml
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\bin\Release\Ninject.xml
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\bin\Release\EntityFramework.xml
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\obj\Release\KnowledgeAccounting.Bll.csprojResolveAssemblyReference.cache
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\obj\Release\KnowledgeAccounting.Bll.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Bll\obj\Release\KnowledgeAccounting.Bll.pdb
+C:\Users\Villovik\Desktop\Новая папка (3)\111\KnowledgeAccounting.Bll\bin\Release\KnowledgeAccounting.Bll.dll
+C:\Users\Villovik\Desktop\Новая папка (3)\111\KnowledgeAccounting.Bll\bin\Release\KnowledgeAccounting.Bll.pdb
+C:\Users\Villovik\Desktop\Новая папка (3)\111\KnowledgeAccounting.Bll\bin\Release\AutoMapper.dll
+C:\Users\Villovik\Desktop\Новая папка (3)\111\KnowledgeAccounting.Bll\bin\Release\KnowledgeAccounting.Dal.dll
+C:\Users\Villovik\Desktop\Новая папка (3)\111\KnowledgeAccounting.Bll\bin\Release\Ninject.dll
+C:\Users\Villovik\Desktop\Новая папка (3)\111\KnowledgeAccounting.Bll\bin\Release\EntityFramework.dll
+C:\Users\Villovik\Desktop\Новая папка (3)\111\KnowledgeAccounting.Bll\bin\Release\KnowledgeAccounting.Dal.pdb
+C:\Users\Villovik\Desktop\Новая папка (3)\111\KnowledgeAccounting.Bll\bin\Release\AutoMapper.xml
+C:\Users\Villovik\Desktop\Новая папка (3)\111\KnowledgeAccounting.Bll\bin\Release\Ninject.xml
+C:\Users\Villovik\Desktop\Новая папка (3)\111\KnowledgeAccounting.Bll\bin\Release\EntityFramework.xml
+C:\Users\Villovik\Desktop\Новая папка (3)\111\KnowledgeAccounting.Bll\obj\Release\KnowledgeAccounting.Bll.csprojResolveAssemblyReference.cache
+C:\Users\Villovik\Desktop\Новая папка (3)\111\KnowledgeAccounting.Bll\obj\Release\KnowledgeAccounting.Bll.dll
+C:\Users\Villovik\Desktop\Новая папка (3)\111\KnowledgeAccounting.Bll\obj\Release\KnowledgeAccounting.Bll.pdb

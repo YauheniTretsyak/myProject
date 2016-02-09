@@ -1,0 +1,28 @@
+C:\Users\1\Documents\Visual Studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Dal\bin\Debug\KnowledgeAccounting.Dal.dll.config
+C:\Users\1\Documents\Visual Studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Dal\bin\Debug\KnowledgeAccounting.Dal.dll
+C:\Users\1\Documents\Visual Studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Dal\bin\Debug\KnowledgeAccounting.Dal.pdb
+C:\Users\1\Documents\Visual Studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Dal\bin\Debug\EntityFramework.dll
+C:\Users\1\Documents\Visual Studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\1\Documents\Visual Studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Dal\bin\Debug\EntityFramework.xml
+C:\Users\1\Documents\Visual Studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\1\Documents\Visual Studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Dal\obj\Debug\KnowledgeAccounting.Dal.dll
+C:\Users\1\Documents\Visual Studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Dal\obj\Debug\KnowledgeAccounting.Dal.pdb
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Dal\bin\Debug\KnowledgeAccounting.Dal.dll.config
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Dal\bin\Debug\KnowledgeAccounting.Dal.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Dal\bin\Debug\KnowledgeAccounting.Dal.pdb
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Dal\bin\Debug\EntityFramework.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Dal\bin\Debug\EntityFramework.SqlServer.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Dal\bin\Debug\EntityFramework.xml
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Dal\bin\Debug\EntityFramework.SqlServer.xml
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Dal\obj\Debug\KnowledgeAccounting.Dal.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Dal\obj\Debug\KnowledgeAccounting.Dal.pdb
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Dal\bin\Debug\KnowledgeAccounting.Dal.dll.config
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Dal\bin\Debug\KnowledgeAccounting.Dal.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Dal\bin\Debug\KnowledgeAccounting.Dal.pdb
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Dal\bin\Debug\EntityFramework.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Dal\bin\Debug\EntityFramework.xml
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Dal\obj\Debug\KnowledgeAccounting.Dal.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Dal\obj\Debug\KnowledgeAccounting.Dal.pdb
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Dal\obj\Debug\KnowledgeAccounting.Dal.csprojResolveAssemblyReference.cache

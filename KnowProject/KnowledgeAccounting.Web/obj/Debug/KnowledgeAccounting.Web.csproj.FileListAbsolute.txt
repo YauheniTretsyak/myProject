@@ -1,0 +1,124 @@
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\KnowledgeAccounting.Web.dll.config
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\KnowledgeAccounting.Web.dll
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\KnowledgeAccounting.Web.pdb
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\Antlr3.Runtime.dll
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\Microsoft.Web.Infrastructure.dll
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\Newtonsoft.Json.dll
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.Helpers.dll
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.Mvc.dll
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.Optimization.dll
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.Razor.dll
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.WebPages.Deployment.dll
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.WebPages.dll
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.WebPages.Razor.dll
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\WebGrease.dll
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.Helpers.xml
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.Mvc.xml
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.Optimization.xml
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.Razor.xml
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.WebPages.xml
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.WebPages.Deployment.xml
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.WebPages.Razor.xml
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\Antlr3.Runtime.pdb
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\Newtonsoft.Json.xml
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\obj\Debug\KnowledgeAccounting.Web.dll
+c:\users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\obj\Debug\KnowledgeAccounting.Web.pdb
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\obj\Debug\KnowledgeAccounting.Web.csprojResolveAssemblyReference.cache
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\EntityFramework.dll
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\KnowledgeAccounting.Bll.dll
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\Ninject.dll
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\Ninject.Web.Common.dll
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\Ninject.Web.Mvc.dll
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\WebActivatorEx.dll
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\KnowledgeAccounting.Dal.dll
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\KnowledgeAccounting.Bll.pdb
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\EntityFramework.xml
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\Ninject.xml
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\Ninject.Web.Common.xml
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\Ninject.Web.Mvc.xml
+C:\Users\1\documents\visual studio 2013\Projects\KnowledgeAccounting\KnowledgeAccounting.Web\bin\KnowledgeAccounting.Dal.pdb
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\KnowledgeAccounting.Web.dll.config
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\KnowledgeAccounting.Web.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\KnowledgeAccounting.Web.pdb
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\Antlr3.Runtime.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\EntityFramework.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\EntityFramework.SqlServer.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\KnowledgeAccounting.Bll.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\Microsoft.Web.Infrastructure.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\Newtonsoft.Json.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\Ninject.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\Ninject.Web.Common.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\Ninject.Web.Mvc.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.Helpers.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.Mvc.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.Optimization.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.Razor.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.WebPages.Deployment.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.WebPages.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.WebPages.Razor.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\WebActivatorEx.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\WebGrease.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\KnowledgeAccounting.Dal.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\KnowledgeAccounting.Bll.pdb
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\EntityFramework.xml
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\EntityFramework.SqlServer.xml
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\Ninject.xml
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\Ninject.Web.Common.xml
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\Ninject.Web.Mvc.xml
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.Helpers.xml
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.Mvc.xml
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.Optimization.xml
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.Razor.xml
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.WebPages.xml
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.WebPages.Deployment.xml
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\System.Web.WebPages.Razor.xml
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\Antlr3.Runtime.pdb
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\Newtonsoft.Json.xml
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\bin\KnowledgeAccounting.Dal.pdb
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\obj\Debug\KnowledgeAccounting.Web.dll
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\obj\Debug\KnowledgeAccounting.Web.pdb
+G:\проект\KnowledgeAccounting\KnowledgeAccounting.Web\obj\Debug\KnowledgeAccounting.Web.csprojResolveAssemblyReference.cache
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\KnowledgeAccounting.Web.dll.config
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\KnowledgeAccounting.Web.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\KnowledgeAccounting.Web.pdb
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\Antlr3.Runtime.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\EntityFramework.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\KnowledgeAccounting.Bll.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\Newtonsoft.Json.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\Ninject.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\Ninject.Web.Common.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\Ninject.Web.Mvc.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\System.Web.Helpers.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\System.Web.Mvc.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\System.Web.Optimization.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\System.Web.Razor.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\System.Web.WebPages.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\WebActivatorEx.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\WebGrease.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\KnowledgeAccounting.Dal.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\KnowledgeAccounting.Bll.pdb
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\EntityFramework.xml
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\Ninject.xml
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\Ninject.Web.Common.xml
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\Ninject.Web.Mvc.xml
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\System.Web.Helpers.xml
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\System.Web.Mvc.xml
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\System.Web.Optimization.xml
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\System.Web.Razor.xml
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\System.Web.WebPages.xml
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\Antlr3.Runtime.pdb
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\Newtonsoft.Json.xml
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\bin\KnowledgeAccounting.Dal.pdb
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\obj\Debug\KnowledgeAccounting.Web.csprojResolveAssemblyReference.cache
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\obj\Debug\KnowledgeAccounting.Web.dll
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\obj\Debug\KnowledgeAccounting.Web.pdb
+C:\Users\Villovik\Desktop\111\KnowledgeAccounting.Web\obj\Debug\KnowledgeAccounting.Web.csproj.ResolveComReference.cache

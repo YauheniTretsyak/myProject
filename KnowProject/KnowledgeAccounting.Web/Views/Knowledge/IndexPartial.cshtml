@@ -1,0 +1,15 @@
+﻿
+@model IEnumerable<KnowledgeAccounting.Web.Models.KnowledgeViewModel>
+
+<p>
+    <ul class="nav navbar-nav navbar-link" style="margin:5px 5px 5px 5px">
+        @foreach (var item in Model)
+        {
+            <li>
+                @Ajax.ActionLink(item.Name, "FindByAjax", "Users", new { id = item.KnowledgeId }, new AjaxOptions { UpdateTargetId = "1212" }, new { @class = "btn btn-default" })
+            </li>
+
+        }
+
+    </ul>
+</p>
